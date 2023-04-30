@@ -1,0 +1,41 @@
+.card {
+    border-radius: 10px;
+    background-color: var(--main-white);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    transition: 0.5;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card:hover {
+    border: 2px groove rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+    font-size: 15px;
+    color: var(--dark);
+
+}
+
+.price {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 3px 8px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.number {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: monospace;
+    padding: 3px 3px;
+    display: block;
+    margin-top: 15px;
+}
